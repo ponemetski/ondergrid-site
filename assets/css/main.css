@@ -1565,6 +1565,7 @@ section,
 }
 
 @media (max-width: 575px) {
+  
   .call-to-action .container {
     border-radius: 0;
   }
