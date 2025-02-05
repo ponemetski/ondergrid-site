@@ -76,7 +76,7 @@
 
           <div class="col-lg-6">
             <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/img-onder.png" alt="Hero Image" class="img-fluid">
+              <img src="assets/img/onder-image.png" alt="Onder image" class="img-fluid">
             </div>
           </div>
           <div class="col-lg-6">
@@ -91,13 +91,6 @@
               <p class="mb-4 mb-md-5">
                 Мы создаем инновационные IT решения, которые изменят ваш взгляд на бизнес и помогут вашей компании выйти на новый уровень развития
               </p>
-
-              <!-- <div class="hero-buttons">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox">
-                  <i class="bi bi-play-circle me-1"></i>
-                  Видео про нас
-                </a>
-              </div> -->
               <p class="mb-4 mb-md-5">
               <div class="hero-buttons">
                 <a class="btn-getstarted" href="assets/download/Карта_партнера_Ондер_Грид_2025_для_сайта.docx" download>
@@ -268,23 +261,81 @@
 
     </section><!-- /Services Section -->
 
+   <!-- Clients Section -->
+   <section id="clients" class="clients section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Наши клиенты</h2>
+      
+    </div><!-- End Section Title -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
 
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "1",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            },
+            "breakpoints": {
+              "320": {
+                "slidesPerView": 2,
+                "spaceBetween": 40
+              },
+              "480": {
+                "slidesPerView": 3,
+                "spaceBetween": 60
+              },
+              "640": {
+                "slidesPerView": 4,
+                "spaceBetween": 80
+              },
+              "992": {
+                "slidesPerView": 4,
+                "spaceBetween": 120
+              }
+            }
+          }
+        </script>
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><img src="assets/img/clients/client_1.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client_2.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client_3.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client_4.jpg" class="img-fluid" alt=""></div>
+          <!-- <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+  </section><!-- /Clients Section -->
+  
     <!-- Contact Section -->
     <section id="contact" class="contact section light-background">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <h2>Контакты</h2>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="row g-4 g-lg-5">
           <div class="col-lg-5">
-            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-box">
               <h3>Связаться с нами</h3>
 
-              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-item" >
                 <div class="icon-box">
                   <i class="bi bi-geo-alt"></i>
                 </div>
@@ -295,7 +346,7 @@
                 </div>
               </div>
 
-              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="info-item">
                 <div class="icon-box">
                   <i class="bi bi-telephone"></i>
                 </div>
@@ -305,7 +356,7 @@
                 </div>
               </div>
 
-              <div class="info-item">
+              <!-- <div class="info-item">
                 <div class="icon-box">
                   <i class="bi bi-envelope"></i>
                 </div>
@@ -313,12 +364,12 @@
                   <h4>Почта</h4>
                   <p>info@example.com</p>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
 
           <div class="col-lg-7">
-            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-form">
               <div id="map"></div>
             </div>
           </div>
